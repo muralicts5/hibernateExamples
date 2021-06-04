@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ehcache>
+
+ <diskStore path="java.io.tmpdir"/>
+ <defaultCache
+        maxElementsInMemory="10000"
+        eternal="false"
+        timeToIdleSeconds="120"
+        timeToLiveSeconds="120"
+        overflowToDisk="true"
+        diskPersistent="true"
+        diskExpiryThreadIntervalSeconds="120"
+        memoryStoreEvictionPolicy="LRU"
+        />	 
+	<cache name="com.examples.hibernateexamples.hql.User" 
+	maxElementsInMemory="100" 
+	eternal="false" 
+	timeToIdleSeconds="5" 
+	timeToLiveSeconds="10" />
+
+<!-- 
+-->
+</ehcache>
+
+
+
+
+
+
